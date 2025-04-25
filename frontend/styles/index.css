@@ -1,0 +1,59 @@
+#container {
+    margin-top: 3rem;
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+  }
+  
+  .colorCard {
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+  }
+  
+  .imagen {
+    height: 700px;
+    width: auto; 
+    object-fit: cover; 
+    opacity: 0.9;
+  }
+
+  .titulo {
+    color: rgb(225, 225, 231);
+  }
+  
+  .tituloSec {
+    color: gray;
+  }
+  
+  .infoPeli {
+    padding: 0.1em 0.5em 0.2em 0.9em;
+  }
+  
+  .claseHover {
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .claseHover:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: #222222; 
+    color: rgb(225, 225, 231); 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }

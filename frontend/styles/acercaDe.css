@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Briem+Hand:wght@100..900&family=Caveat:wght@400..700&family=Oswald:wght@200..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+#texto {
+  background-color: #2222226e;
+  color: aliceblue;
+  width: 75vw;
+  margin: auto;
+  margin-top: 8em;
+  margin-bottom: 3em;
+  padding: 2em;
+  text-align: center;
+}
+
+#texto h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+}
+
+.arapey {
+  font-family: "Arapey", serif;
+  font-size: 1.5rem;
+}
+
+.barlow {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+}
+
+.negrita {
+  font-weight: bolder;
+}
+
+.cursiva {
+  font-style: italic;
+}

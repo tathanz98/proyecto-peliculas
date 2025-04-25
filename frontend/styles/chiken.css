@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+img {
+  height: 500px;
+  transition: 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+#divPeliculas {
+  margin-top: 4em;
+  margin-bottom: 3em;
+  display: flex;
+  gap: 3em;
+  justify-content: space-around;
+}
+
+h3 {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 3em;
+  font-style: normal;
+  font-variation-settings: "EDPT" 100, "EHLT" 12;
+  letter-spacing: 1em;
+  text-transform: uppercase;
+}

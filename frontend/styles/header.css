@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap");
+
+.barraNavegacion {
+  margin-right: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4em;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1em;
+  font-style: normal;
+}
+
+.navColor {
+  background-color: #2222227a;
+}
+
+.hoverActive:target {
+  text-decoration-line: underline;
+}
+
+#titulo {
+  color: #ffffff;
+  font-family: "Stint Ultra Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  height: 70px;
+  transition: 1s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logoMenu {
+  height: 50px;
+}

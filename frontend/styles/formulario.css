@@ -1,0 +1,14 @@
+.margen {
+  margin-top: 5em;
+  padding: 3em 20em 0 20em;
+}
+
+.colorLetra {
+  color: aliceblue;
+}
+
+.formContainer {
+  background-color: #e5c09d2c;
+  padding: 2em;
+  border-radius: 4%;
+}
