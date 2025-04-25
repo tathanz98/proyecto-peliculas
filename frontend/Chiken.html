@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/chiken.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="icon" href="./styles/assets/favicon.png" type="image/x-icon" />
+    <title>Cheska</title>
+  </head>
+
+  <style>
+    .fondo {
+      background-color: #222222;
+    }
+  </style>
+
+  <body class="fondo">
+    <header>
+      <nav class="navbar navbar-dark fixed-top navColor">
+        <div class="container-fluid">
+          <a href="./index.html"
+            ><img src="styles/assets/_0d98a32c-e387-49c4-8ce5-704fe51f2735.jpeg" alt="page logo" class="logo"
+          /></a>
+          <div class="barraNavegacion">
+            <a class="navbar-brand hoverActive" href="index.html">Inicio</a>
+            <a class="navbar-brand hoverActive" href="chiken.html"
+              >chiken y familia</a
+            >
+            <a class="navbar-brand hoverActive" href="Peliculas.html"
+              >Agregar+</a
+            >
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header navColor">
+              <a href="./index.html"
+                ><img
+                  src="./styles/assets/_0d98a32c-e387-49c4-8ce5-704fe51f2735.jpeg"
+                  alt="logo"
+                  class="logoMenu"
+              /></a>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body navColor">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Mi perfil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./acercaDe.html">Acerca de</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Configuración
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Configuración de la cuenta</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://chat.openai.com/"
+                        target="_blank"
+                        >Ayuda</a
+                      >
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./styles/assets/1573177-h-527ea97e5a5a.webp"
+                  class="d-block w-100 img-fluid"
+                  alt="imagen de Chicken Little"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Chicken Little</h3>
+                  <p>
+                    Chicken Little: Es el protagonista de la película. Es un pollito de 10 años. 
+                    Provoca el pánico en la ciudad diciendo que el cielo se cae porque le cayó un 
+                    "pedazo de cielo" sobre la cabeza.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./styles/assets/Ratatouille.webp"
+                  class="d-block w-100 img-fluid"
+                  alt="imagen de Ratatuille"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Ratatuille</h3>
+                  <p>
+                    La película narra la historia de una rata que sueña con convertirse en chef y 
+                    para realizar su objetivo, decide hacer una alianza con el 
+                    hijo de uno de los cocineros más prestigiosos de Francia. 
+                    Fue un éxito de taquilla y recibió críticas positivas, 
+                    además de ganar el Premio Óscar a la mejor película de animación, 
+                    entre otros premios.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./styles/assets/images (2).jpeg"
+                  class="d-block w-100 img-fluid"
+                  alt="imagen de UP"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>UP</h3>
+                  <p>
+                    es una película de animación y aventuras producida por 
+                    Walt Disney Pictures y Pixar Animation Studios, dirigida 
+                    por Pete Docter, estrenada en 2009 y ganadora de dos premios 
+                    Óscar.4​ La trama relata las aventuras de un viudo de edad avanzada 
+                    llamado Carl Fredricksen y de un niño escultista cuyo nombre es Russell, 
+                    quienes viajan a Cataratas del Paraíso (una enorme caída de agua inspirada en el Salto Ángel en Venezuela), 
+                    en el interior de una casa flotante suspendida con globos
+                     rellenos de helio.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <section id="divPeliculas">
+        <article>
+          <a href="https://www.youtube.com/watch?v=awzWdtCezDo" target="_blank">
+            <img
+              src="https://pics.filmaffinity.com/coco-155051069-large.jpg"
+              alt="coco"
+            />
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.youtube.com/watch?v=VONRQMx78YI" target="_blank">
+            <img
+              src="https://www.tvguide.com/a/img/catalog/provider/1/2/1-6411773337.jpg"
+              alt="bee movie"
+            />
+          </a>
+        </article>
+
+        <article>
+          <a href="https://www.youtube.com/watch?v=_DTnvFdFW14" target="_blank">
+            <img
+              src="https://lumiere-a.akamaihd.net/v1/images/poster_intensamente_(1)_a614ebb4.jpeg?region=0%2C0%2C1280%2C1800"
+              alt="intensamente"
+            />
+          </a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
