@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Proyecto-peliculas/front"
+		},
+		{
+			"path": "../../../Proyecto-peliculas/.git"
+		},
+		{
+			"path": "../../../Proyecto-peliculas/back"
+		},
+		{
+			"path": "../../../Proyecto-peliculas/challengeTesting"
+		}
+	],
+	"settings": {}
+}
